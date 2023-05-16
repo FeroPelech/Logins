@@ -8,4 +8,23 @@
 
 .text-part {
   width: 100%;
+  padding: 50px;
+}
+
+input {
+  margin-top: 15px;
+  height: 50px;
+}
+
+button {
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+}
+
+h1 {
+  font-size: 60px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #da211c;
 }

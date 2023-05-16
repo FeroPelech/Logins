@@ -10,7 +10,7 @@ function LoginPage1() {
             <input type="text" placeholder="Username" />
             <input type="text" placeholder="Password" />
             <button>LOGIN</button>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between mt-2">
               <a href="">Forgot Password?</a>
               <a href="">Register</a>
             </div>
