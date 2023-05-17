@@ -1,5 +1,8 @@
 .login-page-1 {
   height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .login-page-1 .row {
@@ -17,13 +20,14 @@ input {
   width: 550px;
   height: 50px;
   font-weight: bold;
+  padding: 20px;
 }
 
 button {
   height: 50px;
   margin-top: 15px;
   width: 50%;
-  background-color: #da211c;
+  background-color: #7cfc00;
   font-weight: bold;
   color: white;
   border: none;
@@ -33,7 +37,7 @@ h1 {
   font-size: 60px;
   color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #da211c;
+  -webkit-text-stroke-color: #7cfc00;
   font-weight: bold;
   letter-spacing: 6px;
 }
@@ -41,4 +45,19 @@ h1 {
 a {
   text-decoration: none;
   color: black;
+}
+
+img {
+  height: 400px;
+}
+
+.login-page-1-rectangle {
+  width: 1000px;
+  height: 200vh;
+  background-color: #7cfc00;
+  position: absolute;
+  bottom: -450px;
+  right: -400px;
+  rotate: 30deg;
+  z-index: -1;
 }
