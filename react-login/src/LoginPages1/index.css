@@ -9,21 +9,26 @@
   height: 100%;
 }
 
-.text-part {
+.login-page-1 .text-part {
   width: 100%;
   padding: 50px;
   font-weight: bold;
 }
 
-input {
+.login-page-1 input {
   margin-top: 15px;
   width: 550px;
   height: 50px;
   font-weight: bold;
   padding: 20px;
 }
+.login-page-1 input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.5);
+  outline: none;
+}
 
-button {
+.login-page-1 button {
   height: 50px;
   margin-top: 15px;
   width: 50%;
@@ -33,25 +38,25 @@ button {
   border: none;
 }
 
-h1 {
+.login-page-1 h1 {
   font-size: 60px;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 10px;
   -webkit-text-stroke-color: #7cfc00;
   font-weight: bold;
   letter-spacing: 6px;
 }
 
-a {
+.login-page-1 a {
   text-decoration: none;
   color: black;
 }
 
-img {
+.login-page-1 img {
   height: 400px;
 }
 
-.login-page-1-rectangle {
+.login-page-1 .login-page-1-rectangle {
   width: 1000px;
   height: 200vh;
   background-color: #7cfc00;

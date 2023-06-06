@@ -1,0 +1,71 @@
+.login-page-2 {
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.login-page-2 .row {
+  height: 50%;
+}
+
+.login-page-2 .text-part {
+  width: 100%;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.login-page-2 input {
+  margin-top: 15px;
+  width: 550px;
+  height: 50px;
+  border-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.login-page-2 input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.login-page-2 button {
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+  background-color: #162022;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.login-page-2 h1 {
+  font-size: 60px;
+  color: transparent;
+  color: #162022;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.login-page-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-page-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.login-page-2 .left-divider {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.login-page-2 .right-divider {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
